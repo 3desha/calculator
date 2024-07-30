@@ -7,6 +7,7 @@ body{
   width: 100%;
 }
 .card{
+  gap:20px;
   border-radius: 32px;
   border: 1px solid var(--Yellow, #F5FA93);
   justify-content: center;
@@ -33,13 +34,16 @@ body{
 }
 .number{
   display: flex;
-  background-color: black;
-  border-radius: 50%;
+  background-color: #474A51;
+  border-radius: 60%;
   color:white;
   justify-content: center;
   align-self: center;
-  padding:25px;
+  padding:20px;
   cursor:pointer;
+}
+.number:hover{
+  background-color:  #A5A5A5;
 }
 .calculator{
   display:flex;
